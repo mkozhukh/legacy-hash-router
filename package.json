@@ -1,0 +1,42 @@
+{
+  "name": "jet-legacy-hash-router",
+  "version": "1.0.0",
+  "description": "Webix Jet microframework",
+  "main": "dist/HashRouter.js",
+  "types": "dist/HashRouter.d.ts",
+  "scripts": {
+    "lint": "tslint --project tsconfig.json sources/**/*.ts",
+    "dist": "tsc -p ./tsconfig.json",
+    "watch": "watch \"yarn dist\" ./sources/"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/webix-hub/jet-legacy-hash-router.git"
+  },
+  "keywords": [
+    "webix",
+    "jet",
+    "framework",
+    "rich",
+    "ui"
+  ],
+  "devDependencies": {
+    "ts-loader": "^3.2.0",
+    "tslint": "^5.7.0",
+    "typescript": "^2.0.0",
+    "watch": "^1.0.2",
+    "webix": "^5.4.0",
+    "webix-jet": "^1.5.0",
+    "webpack": "^3.5.4",
+    "webpack-dev-server": "^2.7.1"
+  },
+  "dependencies": {
+    "webix-routie": "^0.4.0"
+  },
+  "author": "Maksim Kozhukh",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/webix-hub/legacy-hash-router/issues"
+  },
+  "homepage": "https://github.com/webix-hub/legacy-hash-router#readme"
+}
